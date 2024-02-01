@@ -15,7 +15,7 @@ class BankAccount:
         amount=float(input("Enter the amount you wish to withdraw:"))
         if self.balance>=amount:
             self.balance-=amount
-            print("\n Amount you have withdrawn:")
+            print("\n Amount you have withdrawn:",amount)
         else:
             print("\nSorry insufficient account balance")
     def display(self):
